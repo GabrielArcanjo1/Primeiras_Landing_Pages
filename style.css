@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #181A1B;
+  
+}
+/* Fim geral */
+
+header{
+    width: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000000;
+    align-items: center;
+}
+
+
+.logo {
+    margin-left: 10px;
+    color: #FFB800;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    float: left;
+    
+}
+/* Fim Logo */
+
+
+.menu li  {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.menu li a {
+    font-size: 15px ;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #FFB800;
+    color: #181A1B;
+    border-radius: 5%;
+}
+
+.menu li a:hover {
+    background-color: #fff;
+    color: #FFB800;
+}
+/* Fim Menu */
